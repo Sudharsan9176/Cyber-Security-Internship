@@ -69,3 +69,51 @@ By completing this task, I gained a clear understanding of how operating systems
 ---
 
 **Task Status:** Completed
+
+# Cyber Security Internship – Task 4
+
+## Task Title
+Password Security & Authentication Analysis
+
+## Objective
+The objective of this task is to understand how passwords are stored, how weak passwords are attacked, and why strong authentication mechanisms are essential for securing user accounts.
+
+## Tools Used
+- Hashcat
+- John the Ripper  
+- Online hash identification tools (for reference)
+
+## Task Overview
+This task focuses on analyzing password security by studying hashing mechanisms, common hash types, and password attack techniques. Practical analysis was done to understand why weak passwords fail and how attackers exploit poor authentication practices.
+
+## Key Concepts Covered
+- Password storage using hashing
+- Hashing vs encryption
+- Common hash types (MD5, SHA-1, bcrypt)
+- Dictionary attacks and brute force attacks
+- Weak password analysis
+- Multi-factor authentication (MFA)
+- Strong authentication practices
+
+## Password Security Analysis
+Passwords are stored as hashes rather than plain text to protect user credentials. Older hashing algorithms such as MD5 and SHA-1 are fast and vulnerable to attacks, making them unsuitable for secure systems. Modern algorithms like bcrypt are slower and provide better resistance against brute force attacks.
+
+Weak passwords that are short, common, or predictable were found to be easily cracked using dictionary-based approaches. This demonstrates how poor password choices directly increase security risks.
+
+## Authentication Best Practices
+- Use long and unique passwords
+- Avoid common or predictable password patterns
+- Use modern hashing algorithms
+- Enable multi-factor authentication
+- Avoid password reuse across platforms
+- Regularly update and review credentials
+
+## Deliverables
+- Password Security Analysis Report (PDF)
+
+## Final Outcome
+By completing this task, I gained practical understanding of password-based attacks and modern authentication defenses. This task strengthened my knowledge of how weak credentials are exploited and how strong authentication mechanisms help protect systems.
+
+---
+
+**Task Status:** Completed
