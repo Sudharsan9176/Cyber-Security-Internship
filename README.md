@@ -70,6 +70,53 @@ By completing this task, I gained a clear understanding of how operating systems
 
 **Task Status:** Completed
 
+# Cyber Security Internship – Task 3
+
+## Task Title
+Networking Basics for Cyber Security
+
+## Objective
+The objective of this task is to understand basic networking concepts and learn how network traffic can be captured and analyzed for security purposes.
+
+## Tools Used
+- Wireshark  
+- Alternatives: tcpdump, Microsoft Network Monitor
+
+## Task Overview
+This task focuses on learning how data travels across a network and how packet analysis helps in cybersecurity. Using Wireshark, live network traffic was captured and analyzed to understand different protocols, connection behavior, and security risks related to unencrypted communication.
+
+## Key Concepts Covered
+- Basic networking concepts (IP, MAC, DNS)
+- TCP and UDP protocols
+- Packet sniffing and traffic analysis
+- Packet filtering using Wireshark
+- TCP three-way handshake
+- Plain-text vs encrypted traffic
+- DNS query analysis
+
+## Network Traffic Analysis
+Live network traffic was captured using Wireshark by selecting the active network interface. Packet filters such as `tcp`, `dns`, and `http` were applied to focus on specific protocols. The TCP three-way handshake was observed using SYN, SYN-ACK, and ACK packets, showing how reliable connections are established.
+
+Plain-text HTTP traffic was readable in captured packets, while HTTPS traffic was encrypted and unreadable. DNS traffic revealed how domain names are resolved into IP addresses, highlighting the importance of securing DNS communication.
+
+## Observations
+- Normal network activity generates a large number of packets
+- Packet filtering is essential for effective analysis
+- Unencrypted traffic exposes sensitive information
+- DNS traffic reveals useful metadata
+- Encrypted protocols improve overall security
+
+## Deliverables
+- Packet capture file
+- Network traffic analysis report (PDF)
+
+## Final Outcome
+By completing this task, I gained practical experience in capturing and analyzing network traffic. This task improved my understanding of how networking knowledge is applied in cybersecurity monitoring and threat analysis.
+
+---
+
+**Task Status:** Completed
+
 # Cyber Security Internship – Task 4
 
 ## Task Title
